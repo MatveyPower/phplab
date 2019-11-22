@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.selected {
+    background-color: red;
+}
+a {
+    padding: 5px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    
+}
+a:hover{
+    color: black;
+}
+#menu{
+    width: 57%;
+    margin: 0 auto;
+    font-size: 28px;
+}
+#submenu{
+    margin-top: 9px;
+}
+#viewer{
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+}
+th {
+    background: #BCEBDD;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+th:first-child, td:first-child {
+    text-align: left;
+}
+th:first-child {
+    border-top-left-radius: 10px;
+}
+th:last-child {
+    border-top-right-radius: 10px;
+    border-right: none;
+}
+td {
+    padding: 10px 20px;
+    background: #F8E391;
+}
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+    border-right: none;
+}
+#edit_links{
+    width: 20%;
+}
+#edit_links .this{
+    display: block;
+
+   
+}
+label{
+    width: 30%;
+    
+}
+.centr{
+    padding: 5%;
+    width: 60%;
+    margin: 0 auto;
+}
+input, textarea{
+    width: 50%;
+    margin: 0 auto;
+}
+.button{
+    display: block;
+    margin-left: 13%;
+}
+.flex{
+    display: flex;
+}
+form{
+    width: 100%;
+    padding: 0 0 0 10%;
+}
+.button1{
+    margin:0;
+}
+.ch{
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    background-color: lightgreen ;
+    padding: 0 10px;
+}

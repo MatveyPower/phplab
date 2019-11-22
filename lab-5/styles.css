@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+    background-color: #eee;
+    color: black;
+}
+
+header, footer{
+    background-color: #8FBC8F;
+    color: black;
+    position: fixed;
+    min-height: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+header{
+    padding-top: 20px;
+    height: 80px;
+    top:0px;
+}
+footer{
+    min-height: 70px;
+    bottom:0px;
+}
+
+.logo{ 
+    width: 300px;
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    left: 20px;
+    top: -10px;
+    
+}
+header a{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+header .selected{
+    color: black;
+    text-decoration: underline;
+}
+
+main{
+    width: 800px;
+    margin: 200px auto;
+}
+main a{
+    text-decoration: none;
+    color: #101010;
+}
+main a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.th{
+    width: 210px;
+    float: left;
+    margin-right: 20px;
+    padding-right: 5px;
+}
+
+.th a{
+    display: block;
+    margin-bottom: 10px;
+}
+.th a:last-of-type{
+    margin-bottom: 0px;
+}
+.th .selected{
+    color: black;
+    text-decoration: underline;
+}
+
+.ttRow, .ttSingleRow, table{
+    width: 138px;
+    display: inline-block;
+}
+.ttRow{
+    margin-bottom: 15px;
+}
+
+td, .cell{
+    padding: 0;
+}
+.cell{
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+.ttSingleRow{
+    width: 160px;
+    margin: 20px;
+    font-size: 20px;
+}
+table{
+    border: 1px solid black;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
